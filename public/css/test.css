@@ -1,0 +1,80 @@
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+/* html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+*/
+/* ---- grid ---- */
+
+.grid {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 32.4%;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+.grid-item {
+  float: left;
+  margin-bottom: 3.5px;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.remove {
+    position:absolute;
+    top:3px;
+    right:5px;
+    opacity: 0.3;
+    color:gray;
+}
+
+html { 
+background: url(https://images.unsplash.com/photo-1450131392753-9a34d6f4547a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5a27da2fe66799e8272d574029123b3c) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.navbar {
+    background:#27ae60;
+    border-color:#27ae60;
+    
+}
+a{
+    color:white !important;
+    font-family:'Helvetica';
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #006400;
+}
+.jumbotron{
+    margin-top:150px;
+    border-radius:5px;
+}
+#signUp{
+    border-right: solid grey;
+}
+
+.twitter{
+    margin-top:17px;
+}
